@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .body{
+        min-height: 100%;
+        height: 450px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .wrappar{
+        width: 400px;
+        margin: 0 auto;
+    }
+    /**header**/
+    .header{
+        width: 400px;
+        height: 100px;
+        background-color: #141f40;
+    }
+    /**end of header**//**contents**/
+    .contents{
+        width: 400px;
+        height: 250px;
+    }
+    /**right**/
+    .right{
+        width: 150px;
+        height: 250px;
+        float: right;
+        background-color: #80bfa8;
+    }
+    /**end of right**//**left**/
+    .left{
+        width: 250px;
+        height: 250px;
+        float: left;
+    }
+    .left-top{
+        width: 250px;
+        height: 150px;
+    }
+    .left-left{
+        width: 100px;
+        height: 150px;
+        float: left;
+        background-color: #dbd403;
+    }
+    .left-right{
+        width: 150px;
+        height: 150px;
+        float: right;
+    }
+    .box1{
+        width: 150px;
+        height: 50px;
+        background-color: #8c2727;
+    }
+    .box2{
+        width: 150px;
+        height: 100px;
+        background-color: #ff9e6b;
+    }
+    .left-bottom{
+        width: 250px;
+        height: 100px;
+        background-color: #0093b7;
+    }
+    /**end of left**//**fotter**/
+    .fotter{
+        width: 400px;
+        height: 100px;
+        background-color: #d98d30;
+    }
+    /**end of fotter**/
